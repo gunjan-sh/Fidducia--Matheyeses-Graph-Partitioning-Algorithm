@@ -14,11 +14,13 @@ Algorithm
 6. Determine the best move sequence c1,c2,……cm(1<=m<=i), so that Gm = ΣΔ𝑔𝑖𝑚𝑖=1 is maximized. If Gm > 0 go to step 7
 7. Make all the moves permanent and end.
 
-4. Implementation details:
+Implementation details:
 
 The Algorithm was implemented in C++ using STL libraries. 
 The code is written in a very modular way where different functions have been defined for calculating different aspects of the FM-algorithm.
+
 Steps to run the code:
+
 1. First download the ibmXX.net and ibm.are file in a directory (XX = benchmark id)
 2. Run the perl script: $ ibm.perl ibmXX.net ibmXX.are > ibmXX.hgr
 3. Compile partitioning.cpp $ g++ partitioning.cpp
